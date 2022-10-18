@@ -3,7 +3,7 @@
 /**
  * _isalpha - check char if is lower/upper
  * @c: char to be checked
- * Retutn: 1 if char is lower/uppercase otherwise return 0
+ * Return: 1 if char is lower/uppercase otherwise return 0
  */
 
 int _isalpha(int c)
