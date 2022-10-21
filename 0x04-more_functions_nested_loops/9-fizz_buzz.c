@@ -28,7 +28,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(n);
+			printf("%n", n);
 		}
 		if (n < 100)
 		{
