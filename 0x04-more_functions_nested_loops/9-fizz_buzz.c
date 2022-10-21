@@ -1,14 +1,16 @@
-
 #include <stdio.h>
 #include "main.h"
 
 /**
- * main - print 0 - 100, fizz for multi. of 3, buzz for multi. of  5
- * fizzbuzz for both
- * Return: 0
+ * main - entry point
+ *
+ * Description: prints the numbers 1 - 100 w/
+ * Fizz for multiples of 3, Buzz for multiples of 5,
+ * and FizzBuzz for multiples of both
+ *
+ * Return: always 0
  */
-
-int main(voi)
+int main(void)
 {
 	int i;
 
