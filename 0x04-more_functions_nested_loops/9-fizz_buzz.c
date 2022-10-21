@@ -8,33 +8,23 @@
  * Return: 0
  */
 
-int main(void)
+int main(voi)
 {
-	int n;
+	int i;
 
-	for (n = 1; n <= 100; n++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (n % 3 == 0)
-		{
-			putchar(Fizz);
-		}
-		else if (n % 5 == 0)
-		{
-			putchar(Buzz);
-		}
-		else if (n % 15 == 0)
-		{
-			putchar(FizzBuzz);
-		}
+		if (i % 15 == 0)
+			printf("FizzBuzz");
+		else if (i % 3 == 0)
+			printf("Fizz");
+		else if (i % 5 == 0)
+			printf("Buzz");
 		else
-		{
-			printf("%n", n);
-		}
-		if (n < 100)
-		{
-			putchar(' ');
-		}
+			printf("%i", i);
+		if (i < 100)
+			printf(" ");
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
