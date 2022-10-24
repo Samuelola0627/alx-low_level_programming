@@ -11,5 +11,5 @@ void _puts(char *str)
 	{
 		_putchar(*str++);
 	}
-	_purchar('\n');
+	_putchar('\n');
 }
