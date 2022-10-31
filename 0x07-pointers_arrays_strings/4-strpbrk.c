@@ -9,7 +9,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int b, *p;
+	char b, *p;
 
 	for (b = *s; b != 0; s++; b = *s)
 	{
