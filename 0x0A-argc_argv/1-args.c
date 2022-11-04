@@ -1,5 +1,4 @@
-#include <stdio>
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - function
@@ -8,8 +7,8 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	print("%d\n", argc - 1);
 	return (0);
 }
